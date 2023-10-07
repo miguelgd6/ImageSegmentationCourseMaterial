@@ -29,6 +29,7 @@ b = torch.rand(1, requires_grad=True, dtype=torch.float64)
 
 num_epochs = 100
 learning_rate = 1e-3
+
 for epoch in range(num_epochs):
   for i in range(len(X)):
     # x, y = torch.tensor(X_list[i]), torch.tensor(y_list[i])
