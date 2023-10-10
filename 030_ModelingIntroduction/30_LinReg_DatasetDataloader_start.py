@@ -94,8 +94,6 @@ sns.lineplot(x=range(NUM_EPOCHS), y=bias)
 #%% visualise the slope development
 sns.lineplot(x=range(NUM_EPOCHS), y=slope)
 
-
-
 # %% check the result
 model.eval()
 y_pred = [i[0] for i in model(X).data.numpy()]
